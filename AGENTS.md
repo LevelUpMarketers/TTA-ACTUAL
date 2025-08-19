@@ -1,19 +1,25 @@
 # AGENTS.md
 
-Guidance for AI agents (Codex/ChatGPT) working in the `tta-management-plugin` repository.
+Guidance for AI agents (Codex/ChatGPT) working in the Trying To Adult RVA repository.
 
 ---
 
 ## 🧰 Repository Overview
-- **Name:** `tta-management-plugin`
-- **Purpose:** A WordPress plugin for managing members, events, tickets, waitlists, notifications, and Authorize.Net payment integrations.
+- **Site:** Full WordPress site for Trying To Adult RVA.
+- **Primary Plugin:** `app/public/wp-content/plugins/tta-management-plugin`
+  - Unless a task explicitly states otherwise, assume all questions and changes relate to this plugin.
+  - The plugin must remain self‑contained so it can be copied to another WordPress installation and function on its own.
 
 ---
 
 ## 🧪 Development Environment
-- **PHP:** Codex must explicitly install PHP into its container before execution. Assume PHP is not pre-installed; explicitly install it each time.
-- **Composer:** Used for dependency management.
-- **PHPUnit:** Used for running tests.  
+- **PHP:** Explicitly install PHP in the container before running any PHP or Composer commands.
+- **Composer & PHPUnit:** Run from the plugin directory:
+  ```bash
+  cd app/public/wp-content/plugins/tta-management-plugin
+  composer install
+  vendor/bin/phpunit
+  ```
 - **WordPress:** Plugin runs in a WordPress environment; follow WP coding standards, hooks, actions, and filters.
 
 ---
@@ -52,6 +58,8 @@ Guidance for AI agents (Codex/ChatGPT) working in the `tta-management-plugin` re
 ## 🔄 Workflow & Processes
 
 ### Composer workflow
+Run Composer commands inside the plugin directory.
+
 ```bash
 composer install                        # Install dependencies
 composer update                         # Update dependencies and lock file
