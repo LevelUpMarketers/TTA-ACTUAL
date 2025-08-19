@@ -1,0 +1,287 @@
+2025-02-21T22:24:14+00:00 NOTICE Request
+method: POST
+uri: https://api2.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.10.10 (WooCommerce/9.6.2; WordPress/6.7.1)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>**********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.30768s
+ CONTEXT: {"_legacy":true}
+2025-02-21T22:24:14+00:00 NOTICE Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-cache, no-store, max-age=0
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [expires] => -1
+    [x-opnet-transaction-trace] => 636ee163-2b8f-41db-af8c-7b0031104c60-13144-23489724
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [x-download-options] => noopen
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Fri, 21 Feb 2025 22:24:14 GMT
+    [content-length] => 1568
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>TSYS Acquiring Solutions</name>
+      <id>4</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>TRYING TO ADULT</merchantName>
+  <gatewayId>2524739</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>3R49F9pXNAKcmqE3932Y9EcV6qDUB7Kj6xudqH5g9Dcr5aAbcXX7MNJTB8n2VVas</publicClientKey>
+  <businessInformation>
+    <company>TRYING TO ADULT</company>
+    <address>2126 Park Lane</address>
+    <city>Richmond</city>
+    <state>VA</state>
+    <zip>23230</zip>
+    <country>US</country>
+    <phoneNumber>4436104987</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>tryingtoadultrva@gmail.com</email>
+      <firstName>Samantha</firstName>
+      <lastName>Lydard</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+ CONTEXT: {"_legacy":true}
+2025-02-21T22:24:14+00:00 NOTICE Request
+method: POST
+uri: https://api2.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.10.10 (WooCommerce/9.6.2; WordPress/6.7.1)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>**********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.26768s
+ CONTEXT: {"_legacy":true}
+2025-02-21T22:24:14+00:00 NOTICE Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-cache, no-store, max-age=0
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [expires] => -1
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [x-download-options] => noopen
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Fri, 21 Feb 2025 22:24:14 GMT
+    [content-length] => 1568
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>TSYS Acquiring Solutions</name>
+      <id>4</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>TRYING TO ADULT</merchantName>
+  <gatewayId>2524739</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>3R49F9pXNAKcmqE3932Y9EcV6qDUB7Kj6xudqH5g9Dcr5aAbcXX7MNJTB8n2VVas</publicClientKey>
+  <businessInformation>
+    <company>TRYING TO ADULT</company>
+    <address>2126 Park Lane</address>
+    <city>Richmond</city>
+    <state>VA</state>
+    <zip>23230</zip>
+    <country>US</country>
+    <phoneNumber>4436104987</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>tryingtoadultrva@gmail.com</email>
+      <firstName>Samantha</firstName>
+      <lastName>Lydard</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+ CONTEXT: {"_legacy":true}
+2025-02-21T23:01:28+00:00 NOTICE Request
+method: POST
+uri: https://api2.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.10.10 (WooCommerce/9.6.2; WordPress/6.7.1)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>**********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.29624s
+ CONTEXT: {"_legacy":true}
+2025-02-21T23:01:28+00:00 NOTICE Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-cache, no-store, max-age=0
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [expires] => -1
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [x-download-options] => noopen
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Fri, 21 Feb 2025 23:01:28 GMT
+    [content-length] => 1568
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>TSYS Acquiring Solutions</name>
+      <id>4</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>TRYING TO ADULT</merchantName>
+  <gatewayId>2524739</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>3R49F9pXNAKcmqE3932Y9EcV6qDUB7Kj6xudqH5g9Dcr5aAbcXX7MNJTB8n2VVas</publicClientKey>
+  <businessInformation>
+    <company>TRYING TO ADULT</company>
+    <address>2126 Park Lane</address>
+    <city>Richmond</city>
+    <state>VA</state>
+    <zip>23230</zip>
+    <country>US</country>
+    <phoneNumber>4436104987</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>tryingtoadultrva@gmail.com</email>
+      <firstName>Samantha</firstName>
+      <lastName>Lydard</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+ CONTEXT: {"_legacy":true}

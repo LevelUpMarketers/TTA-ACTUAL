@@ -1,0 +1,9 @@
+2025-08-19T00:22:19+00:00 NOTICE webhooks :: Verified webhook ab96a7c7a7
+2025-08-19T00:22:19+00:00 NOTICE webhooks :: Verified webhook ab96a7c7a7
+2025-08-19T00:22:19+00:00 NOTICE webhooks :: Ran plugin updater
+2025-08-19T02:29:04+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 24695 with id 117809
+2025-08-19T02:29:15+00:00 NOTICE product_submit.error :: upsert :: #24695 :: Error Code 400 :: We were unable to determine the store ID. on 2953 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-19T04:19:09+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-19T04:19:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 17458 with id 117814
+2025-08-19T04:23:57+00:00 NOTICE filter :: Order 17458 was skipped by the filter
+2025-08-19T09:33:46+00:00 ERROR delete_store 63c5d2d5274ca :: Resource Not FoundThe requested resource could not be found.

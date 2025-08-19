@@ -1,0 +1,331 @@
+2025-01-16T00:16:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id ff19ccb11608f903bccebea336cf90c4 with id 55976
+2025-01-16T00:16:52+00:00 NOTICE abandoned_cart.success :: email: amsears06@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=ff19ccb11608f903bccebea336cf90c4
+2025-01-16T00:16:52+00:00 NOTICE integration_logic :: mailchimp_member_data_update set the user meta for amsears06@gmail.com to subscribed because it was out of sync.
+2025-01-16T00:16:52+00:00 NOTICE cart.member.updated :: Updated amsears06@gmail.com subscriber status to subscribedand language to en
+2025-01-16T00:16:53+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15908 with id 55977
+2025-01-16T00:16:54+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T00:16:54+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T00:16:55+00:00 NOTICE debug :: Order ID 15908 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/15221/?key=wc_order_rgJ3hQvmxlk1K
+        )
+
+)
+2025-01-16T00:18:26+00:00 NOTICE order.member.updated :: Updated amsears06@gmail.com subscriber status to subscribedand language to en
+2025-01-16T00:18:26+00:00 NOTICE order_submit.success :: addStoreOrder :: #15908 :: email: amsears06@gmail.com :: landing site https://tryingtoadultrva.com/checkout/order-received/15221/?key=wc_order_rgJ3hQvmxlk1K :: abandoned cart deleted [ff19ccb11608f903bccebea336cf90c4]
+2025-01-16T03:12:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 796a45f32614be9eda05178ccc46f986 with id 55981
+2025-01-16T03:12:56+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 796a45f32614be9eda05178ccc46f986 with id 55982
+2025-01-16T03:12:56+00:00 NOTICE abandoned_cart.success :: email: blake.lawler@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=796a45f32614be9eda05178ccc46f986
+2025-01-16T03:12:57+00:00 NOTICE cart.member.updated :: Updated blake.lawler@gmail.com subscriber status to subscribedand language to en
+2025-01-16T03:12:58+00:00 NOTICE abandoned_cart.success :: email: blake.lawler@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=796a45f32614be9eda05178ccc46f986
+2025-01-16T03:13:13+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 796a45f32614be9eda05178ccc46f986 with id 55984
+2025-01-16T03:13:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15911 with id 55985
+2025-01-16T03:13:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T03:13:22+00:00 NOTICE abandoned_cart.success :: email: blake.lawler@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=796a45f32614be9eda05178ccc46f986
+2025-01-16T03:13:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T03:13:23+00:00 NOTICE debug :: Order ID 15911 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/15076/?key=wc_order_tBm9c8bAieSGo
+        )
+
+)
+2025-01-16T03:15:26+00:00 NOTICE order.member.updated :: Updated blake.lawler@gmail.com subscriber status to transactionaland language to en
+2025-01-16T03:15:26+00:00 NOTICE order_submit.success :: addStoreOrder :: #15911 :: email: blake.lawler@gmail.com :: landing site https://tryingtoadultrva.com/checkout/order-received/15076/?key=wc_order_tBm9c8bAieSGo :: abandoned cart deleted [796a45f32614be9eda05178ccc46f986]
+2025-01-16T13:01:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T13:01:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12696 with id 55989
+2025-01-16T13:03:20+00:00 NOTICE filter :: Order 12696 was skipped by the filter
+2025-01-16T14:04:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id bff18990bd2c979ee917568447057163 with id 55993
+2025-01-16T14:04:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id bff18990bd2c979ee917568447057163 with id 55994
+2025-01-16T14:04:20+00:00 NOTICE abandoned_cart.success :: email: sierenee1229@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=bff18990bd2c979ee917568447057163
+2025-01-16T14:04:21+00:00 NOTICE cart.member.updated :: Updated sierenee1229@gmail.com subscriber status to transactionaland language to en
+2025-01-16T14:04:22+00:00 NOTICE abandoned_cart.success :: email: sierenee1229@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=bff18990bd2c979ee917568447057163
+2025-01-16T14:04:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15913 with id 55995
+2025-01-16T14:04:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:04:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15914 with id 55997
+2025-01-16T14:04:59+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:00+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:00+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:04+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:04+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:04+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:04+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:04+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:05+00:00 NOTICE debug :: Order ID 15913 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-01-16T14:05:20+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:20+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15915 with id 56003
+2025-01-16T14:05:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id bff18990bd2c979ee917568447057163 with id 56005
+2025-01-16T14:05:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id bff18990bd2c979ee917568447057163 with id 56006
+2025-01-16T14:05:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15916 with id 56008
+2025-01-16T14:05:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:05:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:13+00:00 NOTICE abandoned_cart.success :: email: sierenee1229@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=bff18990bd2c979ee917568447057163
+2025-01-16T14:06:14+00:00 NOTICE abandoned_cart.success :: email: sierenee1229@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=bff18990bd2c979ee917568447057163
+2025-01-16T14:06:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id bff18990bd2c979ee917568447057163 with id 56010
+2025-01-16T14:06:30+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:31+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15917 with id 56013
+2025-01-16T14:06:32+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:32+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:32+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:36+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:06:36+00:00 NOTICE debug :: Order ID 15913 was failed and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-01-16T14:07:21+00:00 NOTICE abandoned_cart.success :: email: sierenee1229@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=bff18990bd2c979ee917568447057163
+2025-01-16T14:07:22+00:00 NOTICE order_sync.failure :: Order #15914. Can’t submit order without a valid ID
+2025-01-16T14:07:22+00:00 NOTICE order_submit.failure :: There is no real order number to use for order ID 15914.
+2025-01-16T14:07:22+00:00 NOTICE order_sync.failure :: Order #15915. Can’t submit order without a valid ID
+2025-01-16T14:07:22+00:00 NOTICE order_submit.failure :: There is no real order number to use for order ID 15915.
+2025-01-16T14:07:22+00:00 NOTICE order_sync.failure :: Order #15916. Can’t submit order without a valid ID
+2025-01-16T14:07:22+00:00 NOTICE order_submit.failure :: There is no real order number to use for order ID 15916.
+2025-01-16T14:08:54+00:00 NOTICE order.member.updated :: Updated sierenee1229@gmail.com subscriber status to subscribedand language to en
+2025-01-16T14:08:54+00:00 NOTICE order_submit.success :: addStoreOrder :: #15913 :: email: sierenee1229@gmail.com :: landing site https://tryingtoadultrva.com/product/membership/ :: abandoned cart deleted [bff18990bd2c979ee917568447057163]
+2025-01-16T14:08:54+00:00 NOTICE filter :: Order 15917 was skipped by the filter
+2025-01-16T14:08:55+00:00 NOTICE webhook :: Subscriber Sync :: subscribe :: sierenee1229@gmail.com :: Array
+(
+    [subscribed] => 1
+    [user_id] => 375
+)
+2025-01-16T14:13:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7f0c2c950237ace0e2f876cfc00ab99d with id 56020
+2025-01-16T14:13:11+00:00 NOTICE abandoned_cart.success :: email: hblane1703@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=7f0c2c950237ace0e2f876cfc00ab99d
+2025-01-16T14:13:12+00:00 NOTICE integration_logic :: mailchimp_member_data_update set the user meta for hblane1703@gmail.com to subscribed because it was out of sync.
+2025-01-16T14:13:12+00:00 NOTICE cart.member.updated :: Updated hblane1703@gmail.com subscriber status to subscribedand language to en
+2025-01-16T14:13:13+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15919 with id 56021
+2025-01-16T14:13:14+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:13:14+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T14:13:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 15279 with id 56023
+2025-01-16T14:13:15+00:00 NOTICE debug :: Order ID 15919 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/events/list/
+        )
+
+)
+2025-01-16T14:13:26+00:00 NOTICE product_submit.success :: upsert :: #15279
+2025-01-16T14:15:30+00:00 NOTICE order.member.updated :: Updated hblane1703@gmail.com subscriber status to subscribedand language to en
+2025-01-16T14:15:30+00:00 NOTICE order_submit.success :: addStoreOrder :: #15919 :: email: hblane1703@gmail.com :: landing site https://tryingtoadultrva.com/events/list/ :: abandoned cart deleted [7f0c2c950237ace0e2f876cfc00ab99d]
+2025-01-16T15:04:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id ddd65f8288518c008ad6d17a3b149bef with id 56026
+2025-01-16T15:04:09+00:00 NOTICE abandoned_cart.success :: email: boswinklej@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=ddd65f8288518c008ad6d17a3b149bef
+2025-01-16T15:04:09+00:00 NOTICE integration_logic :: mailchimp_member_data_update set the user meta for boswinklej@gmail.com to subscribed because it was out of sync.
+2025-01-16T15:04:10+00:00 NOTICE cart.member.updated :: Updated boswinklej@gmail.com subscriber status to subscribedand language to en
+2025-01-16T15:04:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15921 with id 56027
+2025-01-16T15:04:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T15:04:18+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T15:04:19+00:00 NOTICE debug :: Order ID 15921 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/15386/?key=wc_order_YTh8Ms3xyxnqq
+        )
+
+)
+2025-01-16T15:06:28+00:00 NOTICE order.member.updated :: Updated boswinklej@gmail.com subscriber status to subscribedand language to en
+2025-01-16T15:06:28+00:00 NOTICE order_submit.success :: addStoreOrder :: #15921 :: email: boswinklej@gmail.com :: landing site https://tryingtoadultrva.com/checkout/order-received/15386/?key=wc_order_YTh8Ms3xyxnqq :: abandoned cart deleted [ddd65f8288518c008ad6d17a3b149bef]
+2025-01-16T16:50:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 3379 with id 56031
+2025-01-16T16:50:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15923 with id 56032
+2025-01-16T16:50:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:42+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:43+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:43+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T16:50:43+00:00 NOTICE debug :: Order ID 15923 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/3069/?key=wc_order_Uvgt7YkVcSock
+        )
+
+)
+2025-01-16T16:52:41+00:00 NOTICE filter :: Order 3379 was skipped by the filter
+2025-01-16T16:52:44+00:00 NOTICE order.member.updated :: Updated cvburgard@hotmail.com subscriber status to subscribedand language to en
+2025-01-16T16:52:44+00:00 NOTICE order_submit.success :: addStoreOrder :: #15923 :: email: cvburgard@hotmail.com
+2025-01-16T17:45:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 1e516962b9f1c931d5c1628aee18f544 with id 56041
+2025-01-16T17:45:22+00:00 NOTICE abandoned_cart.success :: email: mlafine@hotmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=1e516962b9f1c931d5c1628aee18f544
+2025-01-16T17:45:23+00:00 NOTICE integration_logic :: mailchimp_member_data_update set the user meta for mlafine@hotmail.com to subscribed because it was out of sync.
+2025-01-16T17:45:23+00:00 NOTICE cart.member.updated :: Updated mlafine@hotmail.com subscriber status to subscribedand language to en
+2025-01-16T17:45:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15924 with id 56042
+2025-01-16T17:45:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T17:45:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T17:45:28+00:00 NOTICE debug :: Order ID 15924 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/login-account-information/
+        )
+
+)
+2025-01-16T17:47:25+00:00 NOTICE order.member.updated :: Updated mlafine@hotmail.com subscriber status to subscribedand language to en
+2025-01-16T17:47:25+00:00 NOTICE order_submit.success :: addStoreOrder :: #15924 :: email: mlafine@hotmail.com :: landing site https://tryingtoadultrva.com/login-account-information/ :: abandoned cart deleted [1e516962b9f1c931d5c1628aee18f544]
+2025-01-16T18:41:34+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:34+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 921 with id 56045
+2025-01-16T18:41:34+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15926 with id 56046
+2025-01-16T18:41:34+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:36+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:36+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:36+00:00 NOTICE debug :: Order ID 15926 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+2025-01-16T18:41:36+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:36+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 928 with id 56050
+2025-01-16T18:41:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15927 with id 56051
+2025-01-16T18:41:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:39+00:00 NOTICE debug :: Order ID 15927 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+2025-01-16T18:41:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 931 with id 56055
+2025-01-16T18:41:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15928 with id 56056
+2025-01-16T18:41:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:41:41+00:00 NOTICE debug :: Order ID 15928 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+2025-01-16T18:43:22+00:00 NOTICE filter :: Order 921 was skipped by the filter
+2025-01-16T18:43:25+00:00 NOTICE order.member.updated :: Updated sstorck27@gmail.com subscriber status to subscribedand language to en
+2025-01-16T18:43:25+00:00 NOTICE order_submit.success :: addStoreOrder :: #15926 :: email: sstorck27@gmail.com
+2025-01-16T18:43:25+00:00 NOTICE filter :: Order 928 was skipped by the filter
+2025-01-16T18:43:28+00:00 NOTICE order.member.updated :: Updated samsiewert6@gmail.com subscriber status to subscribedand language to en
+2025-01-16T18:43:28+00:00 NOTICE order_submit.success :: addStoreOrder :: #15927 :: email: samsiewert6@gmail.com
+2025-01-16T18:43:28+00:00 NOTICE filter :: Order 931 was skipped by the filter
+2025-01-16T18:43:30+00:00 NOTICE order.member.updated :: Updated DutchPrin@gmail.com subscriber status to subscribedand language to en
+2025-01-16T18:43:30+00:00 NOTICE order_submit.success :: addStoreOrder :: #15928 :: email: DutchPrin@gmail.com
+2025-01-16T18:51:20+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 935 with id 56065
+2025-01-16T18:51:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15929 with id 56066
+2025-01-16T18:51:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:23+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:23+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:24+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:24+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T18:51:24+00:00 NOTICE debug :: Order ID 15929 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+2025-01-16T18:53:20+00:00 NOTICE filter :: Order 935 was skipped by the filter
+2025-01-16T18:53:23+00:00 NOTICE order.member.updated :: Updated mariah.payne831@gmail.com subscriber status to subscribedand language to en
+2025-01-16T18:53:23+00:00 NOTICE order_submit.success :: addStoreOrder :: #15929 :: email: mariah.payne831@gmail.com
+2025-01-16T22:32:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15864 with id 56076
+2025-01-16T22:32:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:26+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:26+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:26+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T22:32:26+00:00 NOTICE debug :: Order ID 15864 was failed and is now pending :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-01-16T22:32:27+00:00 NOTICE debug :: Order ID 15864 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-01-16T22:34:22+00:00 NOTICE order_submit :: #15864 has a financial status of pending and was skipped.
+2025-01-16T23:03:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7a7cb9ffbab1ba8ca1650e40487de569 with id 56079
+2025-01-16T23:03:21+00:00 NOTICE abandoned_cart.success :: email: schyler.bogert@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=7a7cb9ffbab1ba8ca1650e40487de569
+2025-01-16T23:03:21+00:00 NOTICE integration_logic :: mailchimp_member_data_update set the user meta for schyler.bogert@gmail.com to subscribed because it was out of sync.
+2025-01-16T23:03:21+00:00 NOTICE cart.member.updated :: Updated schyler.bogert@gmail.com subscriber status to subscribedand language to en
+2025-01-16T23:03:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15930 with id 56080
+2025-01-16T23:03:29+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T23:03:29+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T23:03:30+00:00 NOTICE debug :: Order ID 15930 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/login-account-information/
+        )
+
+)
+2025-01-16T23:05:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 51b9dc34d924e6a9708db506d8e0e4ad with id 56083
+2025-01-16T23:05:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 15933 with id 56084
+2025-01-16T23:05:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T23:05:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-01-16T23:05:18+00:00 NOTICE debug :: Order ID 15933 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/15712/?key=wc_order_8462gdrOCSFgV
+        )
+
+)
+2025-01-16T23:05:22+00:00 NOTICE abandoned_cart.success :: email: katiedalie@gmail.com :: checkout_url: https://tryingtoadultrva.com/checkout/?mc_cart_id=51b9dc34d924e6a9708db506d8e0e4ad
+2025-01-16T23:05:22+00:00 NOTICE integration_logic :: mailchimp_member_data_update set the user meta for katiedalie@gmail.com to subscribed because it was out of sync.
+2025-01-16T23:05:22+00:00 NOTICE cart.member.updated :: Updated katiedalie@gmail.com subscriber status to subscribedand language to en
+2025-01-16T23:05:25+00:00 NOTICE order.member.updated :: Updated schyler.bogert@gmail.com subscriber status to subscribedand language to en
+2025-01-16T23:05:25+00:00 NOTICE order_submit.success :: addStoreOrder :: #15930 :: email: schyler.bogert@gmail.com :: landing site https://tryingtoadultrva.com/login-account-information/ :: abandoned cart deleted [7a7cb9ffbab1ba8ca1650e40487de569]
+2025-01-16T23:07:23+00:00 NOTICE order.member.updated :: Updated katiedalie@gmail.com subscriber status to subscribedand language to en
+2025-01-16T23:07:24+00:00 NOTICE order_submit.success :: addStoreOrder :: #15933 :: email: katiedalie@gmail.com :: landing site https://tryingtoadultrva.com/checkout/order-received/15712/?key=wc_order_8462gdrOCSFgV :: abandoned cart deleted [51b9dc34d924e6a9708db506d8e0e4ad]

@@ -1,0 +1,786 @@
+2025-08-13T00:11:42+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 20605 with id 116671
+2025-08-13T00:11:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25797 with id 116672
+2025-08-13T00:11:49+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:50+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:50+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:50+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:51+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:57+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:57+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:59+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:11:59+00:00 NOTICE debug :: Order ID 25797 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/product/membership/
+        )
+
+)
+2025-08-13T00:14:12+00:00 NOTICE filter :: Order 20605 was skipped by the filter
+2025-08-13T00:14:14+00:00 ERROR order_submit.error :: addStoreOrder :: #25797 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T00:19:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id d1bdd99359c49b915944c785e0ce94cc with id 116681
+2025-08-13T00:20:23+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25798 with id 116682
+2025-08-13T00:20:23+00:00 ERROR abandoned_cart.error :: email: rlsarts@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T00:20:23+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:20:23+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:20:24+00:00 NOTICE product_submit.error :: upsert :: #24982 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T00:20:24+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T00:20:24+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:20:25+00:00 NOTICE debug :: Order ID 25798 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/25507/?key=wc_order_arLEuycc9c4Or
+        )
+
+)
+2025-08-13T00:22:53+00:00 ERROR order_submit.error :: addStoreOrder :: #25798 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T00:37:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 25800 with id 116694
+2025-08-13T00:37:15+00:00 ERROR promo_code_submit.error :: error updating promo rule #25800 :: code salsanight :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T00:38:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:38:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 19058 with id 116698
+2025-08-13T00:40:33+00:00 NOTICE filter :: Order 19058 was skipped by the filter
+2025-08-13T00:50:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25801 with id 116704
+2025-08-13T00:50:47+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:50:47+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:50:49+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:50:49+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T00:50:50+00:00 NOTICE debug :: Order ID 25801 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/cart/
+        )
+
+)
+2025-08-13T00:53:00+00:00 ERROR order_submit.error :: addStoreOrder :: #25801 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T01:00:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 25803 with id 116707
+2025-08-13T01:01:07+00:00 ERROR promo_code_submit.error :: error updating promo rule #25803 :: code rttvgnpc :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T01:28:32+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:28:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 24487 with id 116710
+2025-08-13T01:30:45+00:00 NOTICE filter :: Order 24487 was skipped by the filter
+2025-08-13T01:53:14+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 14223 with id 116714
+2025-08-13T01:53:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25804 with id 116715
+2025-08-13T01:53:15+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:15+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:15+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:15+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T01:53:17+00:00 NOTICE debug :: Order ID 25804 was pending and is now completed :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/wp-content/plugins/hellopress/wp_filemanager.php
+        )
+
+)
+2025-08-13T01:54:58+00:00 NOTICE filter :: Order 14223 was skipped by the filter
+2025-08-13T01:55:01+00:00 ERROR order_submit.error :: addStoreOrder :: #25804 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:01:08+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:01:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 23519 with id 116724
+2025-08-13T02:03:16+00:00 NOTICE filter :: Order 23519 was skipped by the filter
+2025-08-13T02:04:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id b0cdb8b81f2dc7124dd42c72b5bf5357 with id 116728
+2025-08-13T02:04:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25805 with id 116729
+2025-08-13T02:04:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:04:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:04:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:04:28+00:00 NOTICE debug :: Order ID 25805 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/events/list/page/3/
+        )
+
+)
+2025-08-13T02:04:40+00:00 ERROR abandoned_cart.error :: email: samsiewert6@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T02:04:40+00:00 NOTICE product_submit.error :: upsert :: #24712 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:04:40+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:06:35+00:00 ERROR order_submit.error :: addStoreOrder :: #25805 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:22:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:01+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 7175 with id 116732
+2025-08-13T02:22:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25807 with id 116733
+2025-08-13T02:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:07+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:08+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:22:08+00:00 NOTICE debug :: Order ID 25807 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/login-account-information/lost-password/?reset-link-sent=true
+        )
+
+)
+2025-08-13T02:24:06+00:00 NOTICE filter :: Order 7175 was skipped by the filter
+2025-08-13T02:24:08+00:00 ERROR order_submit.error :: addStoreOrder :: #25807 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:38:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 726487d9789438f7aa0a5c7af35bfbe5 with id 116742
+2025-08-13T02:38:56+00:00 ERROR abandoned_cart.error :: email: cvburgard@hotmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T02:38:57+00:00 NOTICE product_submit.error :: upsert :: #24982 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:38:57+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:39:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25808 with id 116743
+2025-08-13T02:39:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:39:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:39:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T02:39:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 24982 with id 116745
+2025-08-13T02:39:04+00:00 NOTICE debug :: Order ID 25808 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/25763/?key=wc_order_iwBzsMcDpPLN7
+        )
+
+)
+2025-08-13T02:40:07+00:00 NOTICE product_submit.error :: upsert :: #24982 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T02:41:22+00:00 ERROR order_submit.error :: addStoreOrder :: #25808 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T05:00:44+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 918cfb935832171130464b6069a32448 with id 116751
+2025-08-13T05:00:44+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 918cfb935832171130464b6069a32448 with id 116750
+2025-08-13T05:00:47+00:00 ERROR abandoned_cart.error :: email: maddi.baril@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T05:00:47+00:00 NOTICE product_submit.error :: upsert :: #25014 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T05:00:47+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T05:00:48+00:00 ERROR abandoned_cart.error :: email: maddi.baril@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T05:00:49+00:00 NOTICE product_submit.error :: upsert :: #25014 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T05:00:49+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T05:03:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25810 with id 116752
+2025-08-13T05:03:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:03:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:03:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:03:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:03:18+00:00 NOTICE debug :: Order ID 25810 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/cart/
+        )
+
+)
+2025-08-13T05:05:57+00:00 ERROR order_submit.error :: addStoreOrder :: #25810 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T05:24:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:24:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25573 with id 116756
+2025-08-13T05:24:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:24:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:24:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:24:31+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:24:31+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T05:24:31+00:00 NOTICE debug :: Order ID 25573 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T09:21:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25790 with id 116759
+2025-08-13T09:21:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T09:21:22+00:00 NOTICE debug :: Order ID 25790 was failed and is now pending :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T09:21:23+00:00 NOTICE debug :: Order ID 25790 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T09:25:04+00:00 NOTICE order_submit :: #25790 has a financial status of pending and was skipped.
+2025-08-13T11:50:56+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 6c10cfd20eb9dd94be96439dfe463705 with id 116762
+2025-08-13T11:50:59+00:00 ERROR abandoned_cart.error :: email: jamesguill@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T11:50:59+00:00 NOTICE product_submit.error :: upsert :: #7184 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T11:50:59+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T11:51:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 721 with id 116763
+2025-08-13T11:51:50+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25812 with id 116764
+2025-08-13T11:51:51+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:51+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25813 with id 116766
+2025-08-13T11:51:51+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:51+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:51+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:52+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:53+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:56+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:56+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T11:51:58+00:00 NOTICE debug :: Order ID 25812 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/product/membership/
+        )
+
+)
+2025-08-13T11:52:07+00:00 NOTICE member.sync :: Updated Member jamesguill@gmail.com :: Array
+(
+    [status] => subscribed
+    [language] => 
+    [merge_fields] => Array
+        (
+            [FNAME] => James
+            [LNAME] => Guill
+        )
+
+    [gdpr_fields] => 
+)
+2025-08-13T11:52:09+00:00 NOTICE webhook :: Subscriber Sync :: subscribe :: jamesguill@gmail.com :: Array
+(
+    [subscribed] => 1
+    [user_id] => 721
+)
+2025-08-13T11:54:20+00:00 ERROR order_submit.error :: addStoreOrder :: #25812 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T11:54:20+00:00 NOTICE filter :: Order 25813 was skipped by the filter
+2025-08-13T13:38:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T13:38:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 22535 with id 116776
+2025-08-13T13:41:19+00:00 NOTICE filter :: Order 22535 was skipped by the filter
+2025-08-13T14:02:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 6dc7d5898360e2ac325024c35be9ee91 with id 116782
+2025-08-13T14:02:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25815 with id 116785
+2025-08-13T14:02:53+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:02:53+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:02:54+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:02:55+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:02:56+00:00 NOTICE debug :: Order ID 25815 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/
+        )
+
+)
+2025-08-13T14:03:00+00:00 ERROR abandoned_cart.error :: email: summerbirdycoles@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T14:03:01+00:00 NOTICE product_submit.error :: upsert :: #25219 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T14:03:01+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T14:05:03+00:00 ERROR order_submit.error :: addStoreOrder :: #25815 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T14:10:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:10:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25581 with id 116789
+2025-08-13T14:10:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:10:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:10:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:10:41+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:10:42+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T14:10:42+00:00 NOTICE debug :: Order ID 25581 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T14:13:11+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Premium Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Premium Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T14:13:12+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Premium Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Premium Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T14:13:12+00:00 NOTICE order.items.error :: Order #25581 :: Product 0 does not exist!
+2025-08-13T15:07:50+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 6c10cfd20eb9dd94be96439dfe463705 with id 116791
+2025-08-13T15:07:57+00:00 ERROR abandoned_cart.error :: email: jamesguill@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T15:07:58+00:00 NOTICE product_submit.error :: upsert :: #24695 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:07:58+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:08:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 6c10cfd20eb9dd94be96439dfe463705 with id 116793
+2025-08-13T15:09:09+00:00 ERROR abandoned_cart.error :: email: jamesguill@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T15:09:10+00:00 NOTICE product_submit.error :: upsert :: #24695 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:09:10+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:09:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 6c10cfd20eb9dd94be96439dfe463705 with id 116795
+2025-08-13T15:09:57+00:00 ERROR abandoned_cart.error :: email: jamesguill@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T15:09:57+00:00 NOTICE product_submit.error :: upsert :: #24695 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:09:57+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:10:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25817 with id 116797
+2025-08-13T15:10:07+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T15:10:07+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T15:10:08+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T15:10:09+00:00 NOTICE debug :: Order ID 25817 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/25812/?key=wc_order_LcIHpFSYr4h80
+        )
+
+)
+2025-08-13T15:13:03+00:00 ERROR order_submit.error :: addStoreOrder :: #25817 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:32:56+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 05afb73df94cad6987b88d1b0b9bf345 with id 116801
+2025-08-13T15:33:04+00:00 ERROR abandoned_cart.error :: email: hannahlj123@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T15:33:04+00:00 NOTICE product_submit.error :: upsert :: #24712 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:33:04+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T15:33:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25819 with id 116802
+2025-08-13T15:33:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T15:33:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T15:33:07+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T15:33:07+00:00 NOTICE debug :: Order ID 25819 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/login-account-information/lost-password/?show-reset-form=true&action
+        )
+
+)
+2025-08-13T15:36:21+00:00 ERROR order_submit.error :: addStoreOrder :: #25819 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T16:07:30+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T16:07:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25588 with id 116806
+2025-08-13T16:07:30+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T16:07:31+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T16:07:31+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T16:07:33+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T16:07:34+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T16:07:34+00:00 NOTICE debug :: Order ID 25588 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T16:10:02+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T16:10:02+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T16:10:02+00:00 NOTICE order.items.error :: Order #25588 :: Product 0 does not exist!
+2025-08-13T16:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 25821 with id 116808
+2025-08-13T16:25:18+00:00 ERROR promo_code_submit.error :: error updating promo rule #25821 :: code michelle :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T17:08:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e25f75aa1e8ba8d9b8d6579e85799596 with id 116809
+2025-08-13T17:08:47+00:00 ERROR abandoned_cart.error :: email: grayfire49@protonmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T17:08:48+00:00 NOTICE product_submit.error :: upsert :: #25014 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T17:08:48+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T17:08:56+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25822 with id 116810
+2025-08-13T17:08:57+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:08:57+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:08:59+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:08:59+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:09:00+00:00 NOTICE debug :: Order ID 25822 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/
+        )
+
+)
+2025-08-13T17:10:31+00:00 ERROR order_submit.error :: addStoreOrder :: #25822 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T17:51:14+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 18908 with id 116813
+2025-08-13T17:51:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25824 with id 116814
+2025-08-13T17:51:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:16+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:20+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T17:51:21+00:00 NOTICE debug :: Order ID 25824 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/events/list/
+        )
+
+)
+2025-08-13T17:56:25+00:00 NOTICE filter :: Order 18908 was skipped by the filter
+2025-08-13T17:56:27+00:00 ERROR order_submit.error :: addStoreOrder :: #25824 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T18:30:59+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:30:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 17183 with id 116824
+2025-08-13T18:31:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25825 with id 116825
+2025-08-13T18:31:00+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:04+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:05+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:05+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T18:31:06+00:00 NOTICE debug :: Order ID 25825 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/
+        )
+
+)
+2025-08-13T18:32:56+00:00 NOTICE filter :: Order 17183 was skipped by the filter
+2025-08-13T18:32:58+00:00 ERROR order_submit.error :: addStoreOrder :: #25825 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T19:09:15+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 17199 with id 116834
+2025-08-13T19:09:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25826 with id 116835
+2025-08-13T19:09:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:17+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:20+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:09:22+00:00 NOTICE debug :: Order ID 25826 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/login-account-information/view-subscription/14738/
+        )
+
+)
+2025-08-13T19:11:26+00:00 NOTICE filter :: Order 17199 was skipped by the filter
+2025-08-13T19:11:28+00:00 ERROR order_submit.error :: addStoreOrder :: #25826 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T19:41:20+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 11090 with id 116844
+2025-08-13T19:41:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25827 with id 116845
+2025-08-13T19:41:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:22+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:25+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:25+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:26+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T19:41:27+00:00 NOTICE debug :: Order ID 25827 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/
+        )
+
+)
+2025-08-13T19:47:12+00:00 NOTICE filter :: Order 11090 was skipped by the filter
+2025-08-13T19:47:14+00:00 ERROR order_submit.error :: addStoreOrder :: #25827 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:00:33+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:33+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 17212 with id 116854
+2025-08-13T21:00:34+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25828 with id 116855
+2025-08-13T21:00:34+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:34+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:34+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:35+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:00:40+00:00 NOTICE debug :: Order ID 25828 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/
+        )
+
+)
+2025-08-13T21:03:06+00:00 NOTICE filter :: Order 17212 was skipped by the filter
+2025-08-13T21:03:08+00:00 ERROR order_submit.error :: addStoreOrder :: #25828 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:10:02+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:10:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25599 with id 116865
+2025-08-13T21:10:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:10:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:10:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:10:05+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:10:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:10:06+00:00 NOTICE debug :: Order ID 25599 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T21:10:51+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 4130bd6f0d11599dc22f5822ad4b8f15 with id 116867
+2025-08-13T21:10:56+00:00 ERROR abandoned_cart.error :: email: khuuvictor5@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T21:10:57+00:00 NOTICE product_submit.error :: upsert :: #25220 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:10:57+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:12:01+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T21:12:02+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T21:12:02+00:00 NOTICE order.items.error :: Order #25599 :: Product 0 does not exist!
+2025-08-13T21:14:04+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 4130bd6f0d11599dc22f5822ad4b8f15 with id 116868
+2025-08-13T21:14:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 4130bd6f0d11599dc22f5822ad4b8f15 with id 116869
+2025-08-13T21:14:05+00:00 ERROR abandoned_cart.error :: email: khuuvictor5@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T21:14:06+00:00 NOTICE product_submit.error :: upsert :: #25220 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:14:06+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:14:07+00:00 ERROR abandoned_cart.error :: email: khuuvictor5@gmail.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T21:14:08+00:00 NOTICE product_submit.error :: upsert :: #25220 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:14:08+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:14:36+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25829 with id 116870
+2025-08-13T21:14:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:14:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:14:38+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:14:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:14:40+00:00 NOTICE debug :: Order ID 25829 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/events/list/
+        )
+
+)
+2025-08-13T21:19:49+00:00 ERROR order_submit.error :: addStoreOrder :: #25829 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T21:21:59+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25790 with id 116874
+2025-08-13T21:22:00+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:00+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:00+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:03+00:00 NOTICE debug :: Order ID 25790 was failed and is now pending :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T21:22:04+00:00 NOTICE debug :: Order ID 25790 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T21:22:09+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:22:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 24528 with id 116878
+2025-08-13T21:23:30+00:00 NOTICE order_submit :: #25790 has a financial status of pending and was skipped.
+2025-08-13T21:28:21+00:00 NOTICE filter :: Order 24528 was skipped by the filter
+2025-08-13T21:31:19+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 18920 with id 116882
+2025-08-13T21:31:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25831 with id 116883
+2025-08-13T21:31:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:24+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:24+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:25+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:26+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T21:31:26+00:00 NOTICE debug :: Order ID 25831 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/product/membership/
+        )
+
+)
+2025-08-13T21:33:31+00:00 NOTICE filter :: Order 18920 was skipped by the filter
+2025-08-13T21:33:33+00:00 ERROR order_submit.error :: addStoreOrder :: #25831 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T22:46:23+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id a35e3bb8556c0a8cb5e46f273017c90c with id 116892
+2025-08-13T22:46:25+00:00 ERROR abandoned_cart.error :: email: pamelaa22@yahoo.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T22:46:26+00:00 NOTICE product_submit.error :: upsert :: #24938 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T22:46:26+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T22:47:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25832 with id 116894
+2025-08-13T22:47:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:47:06+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:47:08+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:47:08+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:47:09+00:00 NOTICE debug :: Order ID 25832 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => https://tryingtoadultrva.com/checkout/order-received/25691/?key=wc_order_SzNhfgEZYRrfz
+        )
+
+)
+2025-08-13T22:50:42+00:00 ERROR order_submit.error :: addStoreOrder :: #25832 :: Error Code 404 :: Resource Not FoundThe requested resource could not be found. on 2745 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T22:55:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:55:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25604 with id 116898
+2025-08-13T22:55:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:55:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:55:58+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:56:01+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:56:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T22:56:04+00:00 NOTICE debug :: Order ID 25604 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T23:37:44+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T23:37:44+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 25607 with id 116901
+2025-08-13T23:37:44+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T23:37:44+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T23:37:44+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T23:37:47+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T23:37:48+00:00 NOTICE handleOrderUpdate :: order_status
+2025-08-13T23:37:48+00:00 NOTICE debug :: Order ID 25607 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+2025-08-13T23:39:46+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T23:39:47+00:00 NOTICE api.add_product.error :: Resource Not FoundThe requested resource could not be found. :: Array
+(
+    [submission] => Array
+        (
+            [id] => deleted_0
+            [title] => Membership
+            [variants] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => deleted_0
+                            [title] => Membership
+                            [inventory_quantity] => 0
+                            [backorders] => false
+                            [visibility] => hidden
+                        )
+
+                )
+
+        )
+
+)
+2025-08-13T23:39:47+00:00 NOTICE order.items.error :: Order #25607 :: Product 0 does not exist!
+2025-08-13T23:48:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e9df4c2dc7b2c3dc49db09c0869bd3f9 with id 116903
+2025-08-13T23:49:17+00:00 ERROR abandoned_cart.error :: email: firedup4tops@yahoo.com :: attempting product update :: Resource Not FoundThe requested resource could not be found.
+2025-08-13T23:49:18+00:00 NOTICE product_submit.error :: upsert :: #25014 :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2025-08-13T23:49:18+00:00 ERROR abandoned_cart.error :: Error Code 400 :: We were unable to determine the store ID. on 2791 in /www/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
